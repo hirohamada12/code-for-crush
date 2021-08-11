@@ -25,6 +25,9 @@ $(document).ready(function () {
     });
   }, 600);
 
+  var audio = new Audio("sound/sound.mp3");
+  audio.play();
+
   $("#text3").html(textConfig.text3);
   $("#text4").html(textConfig.text4);
   $("#no").html(textConfig.text5);
