@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "www.facebook.com/anhvtnfpt";
+            window.location = "https://fb.com/anhvtnfpt";
           },
         });
       }
