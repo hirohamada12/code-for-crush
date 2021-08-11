@@ -25,9 +25,6 @@ $(document).ready(function () {
     });
   }, 600);
 
-  var audio = new Audio("sound/sound.mp3");
-  audio.play();
-
   $("#text3").html(textConfig.text3);
   $("#text4").html(textConfig.text4);
   $("#no").html(textConfig.text5);
@@ -45,6 +42,8 @@ $(document).ready(function () {
       imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(200);
+      let audio = new Audio("sound/sound.mp3");
+      audio.play();
     });
   }
 
